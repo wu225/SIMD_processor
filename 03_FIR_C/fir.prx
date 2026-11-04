@@ -1,0 +1,11 @@
+<project name="FIR packed multiply benchmark" processor="trv32p5" lib="../../lib">
+    <file type="c" name="fir_bench.c" path=""/>
+    <file type="c" name="fir_kernels.c" path=""/>
+    <file type="c" name="fir_model_check.c" path=""/>
+    <option id="project.name" value="fir"/>
+    <option id="project.type" value="exe"/>
+    <option id="noodle.cmode" value="on"/>
+    <option id="llvm.lang" value="c"/>
+    <option id="backend.ipo" value="off"/>
+    <option id="simrun.issca" value="&lt;PROCDIR&gt;/../iss/trv32p5_ca" inherit="0"/>
+</project>
